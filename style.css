@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #bebfc1;
+    font-family: "Red Hat Displat", sans-serif;
+}
+
+.calculator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.screen {
+    height: 150px;
+    background: #001e34;
+}
+
+.screenContent {
+    text-align: end;
+    padding: 17px;
+    font-size: 30px;
+    user-select: none;
+}
+
+.calculation {
+    font-size: 12px;
+    color: white;
+    overflow: auto;
+    padding-top: 2rem;
+}
+
+.result {
+    font-size: 2,5rem;
+    padding-top: 1rem;
+    color: #fff;
+}
+
+table {
+    background-color: #001e34;
+}
+
+tr, td {
+    border: 0.2px solid black;
+    border-collapse: collapse;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    background-color: #002b4a;
+    color: rgb(217, 215, 215);
+    outline: none;
+}
+
+.operator {
+    color: #00a6ff;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.math {
+    color: #b82121;
+    font-family: "Fira Sans", sans-serif;
+}
+
+input[type="button"]:hover {
+    background-color: #5d60ba;
+    color: #fff;
+    transition: all 0.5s linear;
+}
+
